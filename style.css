@@ -1,0 +1,66 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style: none;
+}
+
+h1 {
+    background: linear-gradient(178deg, rgba(255, 255, 255, 0.842) 50%, rgba(239, 20, 0, 0.842) 70%);
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: .75rem;
+    font-size: 4rem;
+    text-shadow: 2px 2px rgb(255, 0, 0);
+}
+
+h5 {
+    text-align: center;
+    width: auto;
+}
+
+
+hr {
+    border-color: rgb(255, 0, 0);
+}
+
+button {
+    display: block;
+    background-color: rgb(255, 0, 0);
+    padding: 5px 2px;
+    text-align: center;
+    width: 100%;
+}
+
+#history {
+    padding-left: 0%;
+}
+
+#history button {
+    border-radius: 2rem rgba(255, 2, 2, 0.74);
+    margin-bottom: 0.25rem;
+    color: rgb(0, 0, 0);
+}
+
+#current-weather {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+
+.card-deck img {
+    width: 100px;
+}
+
+.card-deck .card {
+    margin-bottom: .5rem;
+    padding-bottom: 50px;   
+    width: auto;
+}
+
+.card-deck p, img, h6 {
+    margin-left: 1rem;
+}
+
+.card {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    
+}
